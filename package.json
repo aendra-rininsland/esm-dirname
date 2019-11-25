@@ -1,16 +1,17 @@
 {
-  "name": "__dirname",
+  "name": "--dirname",
   "repository": "https://github.com/aendrew/__dirname",
   "version": "1.0.0",
   "description": "A stop-gap intended to help migrate older code to the new ECMAScript module syntax",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
   "keywords": [
     "esm"
   ],
   "author": "Ændrew Rininsland <aendrew@aendrew.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }

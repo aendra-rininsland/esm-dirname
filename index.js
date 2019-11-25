@@ -1,10 +1,10 @@
 import { fileURLToPath } from "url";
-import { dirname } from "path";
+import { dirname as pathDirname } from "path";
 
-export const __dirname = meta => {
+export const dirname = meta => {
   if (meta) {
-    return dirname(fileURLToPath(meta.url));
+    return pathDirname(fileURLToPath(meta.url));
   }
 };
 
-export default __dirname;
+export default dirname;
