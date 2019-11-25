@@ -1,7 +1,7 @@
 {
   "name": "esm-dirname",
   "repository": "https://github.com/aendrew/__dirname",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stop-gap intended to help migrate older code to the new ECMAScript module syntax",
   "main": "index.js",
   "type": "module",
